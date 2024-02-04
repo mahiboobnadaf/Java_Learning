@@ -30,5 +30,7 @@ public class Typecasting {
         // float + int - double = double
         System.out.println((f * b) + " " + (i / c) + " " + (d * s));
         System.out.println(result);
+
+        inp.close();
     }
 }
