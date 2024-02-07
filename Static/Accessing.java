@@ -19,7 +19,7 @@ public class Accessing {
     
     
     public static void main(String[] args) { 
-        greeting();       // here greeting not accessible bcoz "this main method is static and greeting is non static method"
+        // greeting();       // here greeting not accessible bcoz "this main method is static and greeting is non static method"
 
         
                       //for fun2() we need to create an instance 
@@ -32,7 +32,7 @@ public class Accessing {
 
 
     static void fun(){
-        greeting();         //even a static method cannot access the non static method
+        // greeting();         //even a static method cannot access the non static method
     }
 
     void fun2(){
